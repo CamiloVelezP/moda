@@ -1,0 +1,2107 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/moda
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52350
+Successfully changed project path to: D:/unity/moda
+D:/unity/moda
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21500] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3563250676 [EditorId] 3563250676 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SNBDK4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21500] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3563250676 [EditorId] 3563250676 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SNBDK4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 64.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path D:/unity/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/moda/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3203
+Initialize mono
+Mono path[0] = 'D:/unity/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001780 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.511 seconds
+Domain Reload Profiling:
+	ReloadAssembly (512ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (353ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (203ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003574 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\moda\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\moda\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 3513.
+Memory consumption went from 107.5 MB to 107.5 MB.
+Total: 3.273400 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.902800 ms  DeleteObjects: 0.067400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14979.027597 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/East50thStreet.mat
+  artifactKey: Guid(bb7aa3341c2aa49f7a43c0f99083a487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/East50thStreet.mat using Guid(bb7aa3341c2aa49f7a43c0f99083a487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bd118351bb38b8c774e2633c3068db') in 2.267532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-27.dae
+  artifactKey: Guid(42449edd2949d4f5483606acb4b7f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-27.dae using Guid(42449edd2949d4f5483606acb4b7f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceebe375f85a03e1a706de4ba2aab1aa') in 1.546454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/bus_stop0Color_A05t10gpc62ci6en.mat
+  artifactKey: Guid(6bd0acbf3610748d285dd1e179ea6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/bus_stop0Color_A05t10gpc62ci6en.mat using Guid(6bd0acbf3610748d285dd1e179ea6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9002d03e6250eb6a2401a0fcc2fec900') in 0.028373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-13.dae
+  artifactKey: Guid(70f494b93dcf04196a0559247ece2265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-13.dae using Guid(70f494b93dcf04196a0559247ece2265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e925ce7846ef593b1e04aff7a486558e') in 0.087085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/facade_brick_4_diffuse_1024.mat
+  artifactKey: Guid(0181a80bb5d814383b62bc13ef98ed02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/facade_brick_4_diffuse_1024.mat using Guid(0181a80bb5d814383b62bc13ef98ed02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd223fdf1beb7c7be6d2ad70b23b996') in 0.032012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-26.dae
+  artifactKey: Guid(9010d309ffe0f431c93eab8e1dffda4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-26.dae using Guid(9010d309ffe0f431c93eab8e1dffda4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a349270d2efa81c1e28246b259eeb51') in 0.098231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/East58thStreet.mat
+  artifactKey: Guid(d82bdbbe59d094090a3959f7d171291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/East58thStreet.mat using Guid(d82bdbbe59d094090a3959f7d171291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46282d4415ca9382df99899f16c8ff50') in 0.022990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/East57thStreet.mat
+  artifactKey: Guid(b059c273458f64dcc98880cb7ded5b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/East57thStreet.mat using Guid(b059c273458f64dcc98880cb7ded5b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f955392fe8e9a5d23daf83282984616') in 0.033872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-3.dae
+  artifactKey: Guid(3222105df633c498c8a6a2133e1fe185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-3.dae using Guid(3222105df633c498c8a6a2133e1fe185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc07f796a4deb2e0e71efec2e5016cce') in 0.031659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-24.dae
+  artifactKey: Guid(a6831b59ad03141b78495d50f8bf3c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-24.dae using Guid(a6831b59ad03141b78495d50f8bf3c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a383156f64b0e003c7e567277471d8') in 0.037625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-28.dae
+  artifactKey: Guid(74c921230ed1b49c3ad4d0386135df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-28.dae using Guid(74c921230ed1b49c3ad4d0386135df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4a46bef38067d7ef834a1ac80e7ec3') in 0.037388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/East51stStreet.mat
+  artifactKey: Guid(37b7e0d93c6164e2f837d0c5e70bde0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/East51stStreet.mat using Guid(37b7e0d93c6164e2f837d0c5e70bde0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a723f60d4dae9ac3dffc14add98ece') in 0.014908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-21.dae
+  artifactKey: Guid(2943edb265c49466a9e54019abe65c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-21.dae using Guid(2943edb265c49466a9e54019abe65c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c832624e2abc9c0161f18d3c2e95c31c') in 0.036981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/East45thStreet.mat
+  artifactKey: Guid(50d32c7fe71cf49739594e3300b55ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/East45thStreet.mat using Guid(50d32c7fe71cf49739594e3300b55ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1923119a35c68d1cd0d23c3c805dde96') in 0.035145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/Broadway.mat
+  artifactKey: Guid(4dfb9dcfbc7c84ba187ca7c1fece8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/Broadway.mat using Guid(4dfb9dcfbc7c84ba187ca7c1fece8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b60b536f76c03c03355d6f900f26a0') in 0.018658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/East53rdStreet.mat
+  artifactKey: Guid(6f03e8356b86b461690994165a6f8c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/East53rdStreet.mat using Guid(6f03e8356b86b461690994165a6f8c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f3181dc1334525ebb4987aa0032c1b') in 0.013769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models
+  artifactKey: Guid(ea5dfa36db8a74d0cb84ad2691a6faa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models using Guid(ea5dfa36db8a74d0cb84ad2691a6faa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1883e2dd020eb33c249e146737a4d2') in 0.010009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/8thAvenue.mat
+  artifactKey: Guid(c2753c4fc951243db9f12df238f8d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/8thAvenue.mat using Guid(c2753c4fc951243db9f12df238f8d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9471f6acd149fd04a843d3633f309e37') in 0.018594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-30.dae
+  artifactKey: Guid(2e66f316066aa4d1bbec627e51b148ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-30.dae using Guid(2e66f316066aa4d1bbec627e51b148ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f804ae3c226a708dd15829a08a7a02') in 0.058425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/7thAvenue.mat
+  artifactKey: Guid(64efc8560aa4140acb4796288d3aff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/7thAvenue.mat using Guid(64efc8560aa4140acb4796288d3aff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bf38d543d152b19f5da181c1f3a89e') in 0.058088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-9.dae
+  artifactKey: Guid(783fc65fcca55412aa82c765ab053cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-9.dae using Guid(783fc65fcca55412aa82c765ab053cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12572d53fdf0755bf0d9b549842ed1db') in 0.038537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-2.dae
+  artifactKey: Guid(4b7aa532a1bcd48c09bea67956c24f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-2.dae using Guid(4b7aa532a1bcd48c09bea67956c24f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12645f35a702d8b9e6dfe1f5a7d6d38e') in 0.035322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials
+  artifactKey: Guid(8a1f91aa092a84892b0fc7719f60d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials using Guid(8a1f91aa092a84892b0fc7719f60d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1af74fd806590a544ea0656aad70509') in 0.009494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-25.dae
+  artifactKey: Guid(c89468e28d6824be790870b428cdf0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-25.dae using Guid(c89468e28d6824be790870b428cdf0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6222ed72f82c010abc63adb1e0b8be37') in 0.037251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/facade_brick_5_diffuse_1024.mat
+  artifactKey: Guid(627dcc4b4920841889dae77858ad4f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/facade_brick_5_diffuse_1024.mat using Guid(627dcc4b4920841889dae77858ad4f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09175f6876c2bc61d7dcefb05ad3ec85') in 0.019947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01
+  artifactKey: Guid(5d7ed7b0e4d9cd04480224719249a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01 using Guid(5d7ed7b0e4d9cd04480224719249a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac5cde83da5577406c6a5885c15cae1') in 0.010271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-10.dae
+  artifactKey: Guid(dd740098c035a4c5e89c148882b980d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-10.dae using Guid(dd740098c035a4c5e89c148882b980d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efa359ddde1fc0c26e87933594f6a8e') in 0.034913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-7.dae
+  artifactKey: Guid(361b5da8bd59b48f7b824959b92897b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-7.dae using Guid(361b5da8bd59b48f7b824959b92897b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182920708a9af9597c4e768638913983') in 0.032143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-19.dae
+  artifactKey: Guid(24867383751a64ed69556e583f7d3a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-19.dae using Guid(24867383751a64ed69556e583f7d3a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1801f6822739e9e3d15f86c4060b6aeb') in 0.032892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-34.dae
+  artifactKey: Guid(d423babf183d04fb58eca92af0341b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-34.dae using Guid(d423babf183d04fb58eca92af0341b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2261b0bc42de0b21d47e735bd0c56fd4') in 0.042777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/3rdAvenue.mat
+  artifactKey: Guid(5fc8ca4434ffb403cbf577ac075c12f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/3rdAvenue.mat using Guid(5fc8ca4434ffb403cbf577ac075c12f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68e5036e2a568cb59a8ce985eb7f358') in 0.016836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-33.dae
+  artifactKey: Guid(a3e05b203e95e40d68997eab3789f895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-33.dae using Guid(a3e05b203e95e40d68997eab3789f895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a4e0aa84ccd3e6e32fb9cdb84d146a') in 0.035640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-35.dae
+  artifactKey: Guid(d6f1a14cbaf024211bafd6ff32121f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-35.dae using Guid(d6f1a14cbaf024211bafd6ff32121f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e80a2d7ac1a5a4dde912b3a544ec6a4') in 0.045841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-15.dae
+  artifactKey: Guid(825e5359962b245549d4d0135d4b28b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-15.dae using Guid(825e5359962b245549d4d0135d4b28b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd2434de3b2a50bc4854ca6c5a5cec2') in 0.057519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.571785 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/5thAvenue.png
+  artifactKey: Guid(f9c6754b102674863b9edc1ff748e4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/5thAvenue.png using Guid(f9c6754b102674863b9edc1ff748e4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b229c5a759094caf559924afe8aefd4') in 0.820550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_2_normal_1024.png
+  artifactKey: Guid(23b2a6038cd614aa19831d5febd0af1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_2_normal_1024.png using Guid(23b2a6038cd614aa19831d5febd0af1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2282a4ef0414516764787619431d7069') in 0.041667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/East55thStreet.png
+  artifactKey: Guid(827b608c1c5d148ee9286ebd2f8d5674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/East55thStreet.png using Guid(827b608c1c5d148ee9286ebd2f8d5674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fbd6071528a3cb698e3492964a94da') in 0.013042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/East57thStreet.png
+  artifactKey: Guid(721f75d4ac2ed4a3e8591c33550384ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/East57thStreet.png using Guid(721f75d4ac2ed4a3e8591c33550384ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364aefea1980f9046be1334101ad968a') in 0.034009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/East58thStreet.png
+  artifactKey: Guid(6dbc57eb95226468398b6b7fc8f88c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/East58thStreet.png using Guid(6dbc57eb95226468398b6b7fc8f88c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9942f7dbe02a3e2f9deca2941cccbc4b') in 0.020492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/bus_shelter_diffuse2k.png
+  artifactKey: Guid(a205b09676c3447d5b6e00726259df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/bus_shelter_diffuse2k.png using Guid(a205b09676c3447d5b6e00726259df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30898d27f79e5aaf33ca501c80c7025') in 0.021244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/East52ndStreet.png
+  artifactKey: Guid(960a7bc1e544b4f20a817bac116c3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/East52ndStreet.png using Guid(960a7bc1e544b4f20a817bac116c3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d3e94fe2d74c53d6064ca3967fd8a5') in 0.014327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_4_diffuse_1024.png
+  artifactKey: Guid(a6acdef197ef1477a9cfd94efcc1203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_4_diffuse_1024.png using Guid(a6acdef197ef1477a9cfd94efcc1203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d38b32847cc00cd30b9a831f3f9c32a') in 0.016019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/collection_box_normal2k.png
+  artifactKey: Guid(8e93fa21abecb4977b58c06b4572caa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/collection_box_normal2k.png using Guid(8e93fa21abecb4977b58c06b4572caa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485645c0c1bf22bb346006b1efd77fb1') in 0.017262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 168.192859 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-38.dae
+  artifactKey: Guid(72173c8ffc8814d7c95660db2f669338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-38.dae using Guid(72173c8ffc8814d7c95660db2f669338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f77643f35fd566fe960dd526bf7f99f') in 1.116369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-63.dae
+  artifactKey: Guid(52066ab6fa1274518b4e737f962c9cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-63.dae using Guid(52066ab6fa1274518b4e737f962c9cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac52831d15d8ac5bd1549246c923be6') in 0.978613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-53.dae
+  artifactKey: Guid(b38c2e433eae544108716cbd234783ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-53.dae using Guid(b38c2e433eae544108716cbd234783ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873d224d12bcfdbdf4b6f29d3a484801') in 0.401143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-40.dae
+  artifactKey: Guid(0871edee079494219b558c619977a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-40.dae using Guid(0871edee079494219b558c619977a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb2a69ad1acbe89cf36339402de6251') in 0.123063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-56.dae
+  artifactKey: Guid(b2edd1ecb7cd3469db0d1c446a935795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-56.dae using Guid(b2edd1ecb7cd3469db0d1c446a935795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f953785d047cb08c27fff3f3dc212e3') in 0.635733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-260.dae
+  artifactKey: Guid(ecd860c5ac936462c96e27db1862394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-260.dae using Guid(ecd860c5ac936462c96e27db1862394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba0075a4d8812f5f030b3ef0eaf704a') in 0.198518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-389.dae
+  artifactKey: Guid(38c7108e33a424190a886d16825b0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-389.dae using Guid(38c7108e33a424190a886d16825b0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd881e4cbf00c139ce4148eb9e6df0af0') in 0.303531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-566.dae
+  artifactKey: Guid(1452e203ed02b41e29fa6c88c18d6b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-566.dae using Guid(1452e203ed02b41e29fa6c88c18d6b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990d0bdce42f78195408e247024099b5') in 0.168644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-122.dae
+  artifactKey: Guid(363680dfb3f4e44f7a82ef5de23361dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-122.dae using Guid(363680dfb3f4e44f7a82ef5de23361dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f455f34123e2b43a24091a09974e574') in 0.145112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-521.dae
+  artifactKey: Guid(9d856d13a1d104e21afc6b085eafa06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-521.dae using Guid(9d856d13a1d104e21afc6b085eafa06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509cb7ec04eeb604009f3b8a13793f67') in 1.138154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-513.dae
+  artifactKey: Guid(f2e012e698ab343dfb2621456662951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-513.dae using Guid(f2e012e698ab343dfb2621456662951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd9e5b018fd84db919956fa41cd31dd') in 0.151930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-228.dae
+  artifactKey: Guid(76d28a6c3eef743ac9ddf7ef813e43c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-228.dae using Guid(76d28a6c3eef743ac9ddf7ef813e43c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad8d0749758b2e415bcde1d661008c4') in 0.244016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-279.dae
+  artifactKey: Guid(5b49334e53d6744de85a1ef3a7849a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-279.dae using Guid(5b49334e53d6744de85a1ef3a7849a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a890b617347ae9c18cfeea0c21eb5fa') in 0.113729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-382.dae
+  artifactKey: Guid(91839e26c84e044d3b4964e5dde044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-382.dae using Guid(91839e26c84e044d3b4964e5dde044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fe33efddfaf69682665457f9b4d531') in 0.180390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-346.dae
+  artifactKey: Guid(a973aee81f78c45f6a37242565f95844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-346.dae using Guid(a973aee81f78c45f6a37242565f95844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d877d1c365d18292d6d7d08bdf2c472') in 0.215716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-119.dae
+  artifactKey: Guid(00d6e12c1954a4819a03e214ec727165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-119.dae using Guid(00d6e12c1954a4819a03e214ec727165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90beeb5dd182fdd74c8dcf285c4bcb76') in 1.645102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/model-0-1.dae
+  artifactKey: Guid(bdf8cd937f40f46679d7809e38361b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/model-0-1.dae using Guid(bdf8cd937f40f46679d7809e38361b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c21b37aed953fde7a19bc10f6b9d355') in 12.932039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-590.dae
+  artifactKey: Guid(d5159efc6158545539e6ccf806cc5200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-590.dae using Guid(d5159efc6158545539e6ccf806cc5200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0f8164037d34c55de1be835abc046a') in 0.147107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-111.dae
+  artifactKey: Guid(b87f0f9f16bd74358a1999c57a89f144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-111.dae using Guid(b87f0f9f16bd74358a1999c57a89f144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c647507514c25857e16dc0b29b4ba622') in 0.135541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-69.dae
+  artifactKey: Guid(27addba87c2094230b0280638289fb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-69.dae using Guid(27addba87c2094230b0280638289fb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02f3cdf05f21bb5c18b53d999782d88') in 0.136091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-118.dae
+  artifactKey: Guid(991b931cdba76447eb830e6f71e20ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-118.dae using Guid(991b931cdba76447eb830e6f71e20ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44343ca53b1dfcc2349cf8ae3e9b2cb1') in 0.096984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-43.dae
+  artifactKey: Guid(35e032d22ca4942f78873d88eaccf935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-43.dae using Guid(35e032d22ca4942f78873d88eaccf935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b02033d10294bc5b5857604b90427ee') in 0.177309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-511.dae
+  artifactKey: Guid(2bc8fa79c51aa4850a507cde0a242a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-511.dae using Guid(2bc8fa79c51aa4850a507cde0a242a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7324bc883ff84eb8f8f827b56aab14') in 0.181996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-345.dae
+  artifactKey: Guid(3bf271b9bddfe4e1bad4b07dc9dcde34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-345.dae using Guid(3bf271b9bddfe4e1bad4b07dc9dcde34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4478b2a0d6fee1c719f75f01483ba013') in 0.321228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-197.dae
+  artifactKey: Guid(168e1ca27b7684942ba4970f4bbac98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-197.dae using Guid(168e1ca27b7684942ba4970f4bbac98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed484f8a08302a8f46be41403ea2b736') in 0.151587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-530.dae
+  artifactKey: Guid(5a24ee6115ba04bfeb41d0903ace0181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-530.dae using Guid(5a24ee6115ba04bfeb41d0903ace0181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d660312824fe853a055deebef856018') in 0.114819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-432.dae
+  artifactKey: Guid(e3e70cc0879c3421293e2d24d111d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-432.dae using Guid(e3e70cc0879c3421293e2d24d111d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a44b2eb9e7ec840a5187080bba88fa7') in 0.202061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-143.dae
+  artifactKey: Guid(acbf4d6fd391d4a3fbcc24eaea6a3013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-143.dae using Guid(acbf4d6fd391d4a3fbcc24eaea6a3013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74063e23fd745e9331fc04cf6dd1398a') in 0.135823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-383.dae
+  artifactKey: Guid(aa05724a83c4f42b19751adab0dc1be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-383.dae using Guid(aa05724a83c4f42b19751adab0dc1be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b2ef64c19f0d29911a098dd494f231') in 0.145528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-488.dae
+  artifactKey: Guid(2f930a512c0704981844f33f59647aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-488.dae using Guid(2f930a512c0704981844f33f59647aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc7284d4d520a1179796ec3eeecaecc') in 0.104365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-184.dae
+  artifactKey: Guid(3e7c401d07d32431ca152038b5be4e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-184.dae using Guid(3e7c401d07d32431ca152038b5be4e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777e464b6c43488b2e1e7ed3829161d4') in 0.117614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-118.dae
+  artifactKey: Guid(e6b4ebb56f5104014ab5d848db5e9816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-118.dae using Guid(e6b4ebb56f5104014ab5d848db5e9816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481fb729ca282d6a3c7a39fa8bd39bbf') in 0.241780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-46.dae
+  artifactKey: Guid(b1c917216bfab431b96e0e1b9d77c34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-46.dae using Guid(b1c917216bfab431b96e0e1b9d77c34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b9512dc50ebbb34520fe9394c3cb54') in 0.100873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-61.dae
+  artifactKey: Guid(5dac72e36f95b4133974727dd3152a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-61.dae using Guid(5dac72e36f95b4133974727dd3152a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2ec5da802cd5fe376066de1f43a9d8') in 0.137950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-105.dae
+  artifactKey: Guid(bf6e3d619c3b64e93928d2ceda1594bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-105.dae using Guid(bf6e3d619c3b64e93928d2ceda1594bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d0252cfa1c2c1c898b8f4733e72a6b') in 0.276309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-579.dae
+  artifactKey: Guid(2746da7c9796e4a29b2b6acf7a164303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-579.dae using Guid(2746da7c9796e4a29b2b6acf7a164303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f32ed0c239fe63367bcb3cf9b78166') in 0.182190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-74.dae
+  artifactKey: Guid(ec9e5bfda1ebf497e8227466eb0bb7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-74.dae using Guid(ec9e5bfda1ebf497e8227466eb0bb7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176d788a06f377e987c57befed401600') in 0.104222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-528.dae
+  artifactKey: Guid(27d77c9575d6b421483722b0382ad116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-528.dae using Guid(27d77c9575d6b421483722b0382ad116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befa11a132feb01c2f8e0b4fabf06a5e') in 0.163089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-93.dae
+  artifactKey: Guid(8606c8585497f4f85adde586cffbfbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-93.dae using Guid(8606c8585497f4f85adde586cffbfbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca4bb73297cead60f98ac9861b1be3a') in 0.217104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-162.dae
+  artifactKey: Guid(21bb3ba731f224f78bc139ff6449926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-162.dae using Guid(21bb3ba731f224f78bc139ff6449926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb0f2f5584af45b5fe30d73db64c334') in 0.122435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-255.dae
+  artifactKey: Guid(5e3c92db286774f1d80641c4f69b7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-255.dae using Guid(5e3c92db286774f1d80641c4f69b7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50c3b639d821e15722e93720a1abae9') in 0.102161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-503.dae
+  artifactKey: Guid(3e186b2257acc44ef9a486a4bbba9a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-503.dae using Guid(3e186b2257acc44ef9a486a4bbba9a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fcdf757ee87699eea116e17746a7a5') in 0.112026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-306.dae
+  artifactKey: Guid(d807260a84d2f42ef9c178efb649dcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-306.dae using Guid(d807260a84d2f42ef9c178efb649dcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b92e41973bb7c0a2c1ae90e0eed2e7') in 0.089268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-9.dae
+  artifactKey: Guid(8d513c69ca4c943ef8f998d254a7031c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-9.dae using Guid(8d513c69ca4c943ef8f998d254a7031c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d801ea2b4de14c96abba9008258757b') in 0.089818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-406.dae
+  artifactKey: Guid(212068861daf248f9b48b9c6342c5ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-406.dae using Guid(212068861daf248f9b48b9c6342c5ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd26f4f64611905c900413564138af23') in 0.129978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-75.dae
+  artifactKey: Guid(f8b59239179f24fc1b7e186ce66f2f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-75.dae using Guid(f8b59239179f24fc1b7e186ce66f2f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9d4c4cbc2d89780c4c66715144b95d') in 0.114488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-541.dae
+  artifactKey: Guid(ae856c7b6989a40cdb7823ab4cd94764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-541.dae using Guid(ae856c7b6989a40cdb7823ab4cd94764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272195c5d5dc18ce3d44570fd2967080') in 0.136115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-174.dae
+  artifactKey: Guid(da829ac639b214e55bed49c73b544a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-174.dae using Guid(da829ac639b214e55bed49c73b544a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09e9749b198483b8be0975b7015209a') in 0.129607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-88.dae
+  artifactKey: Guid(aeecb674d5e2542fcbaf8e099867a900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-88.dae using Guid(aeecb674d5e2542fcbaf8e099867a900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9958d09640d3acbdba9635401017d005') in 0.093876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-183.dae
+  artifactKey: Guid(02f2d907eb8844272b71e3c624915eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-183.dae using Guid(02f2d907eb8844272b71e3c624915eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d51f7f95ae013b84c7bec6dfd6f860a') in 0.099903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-440.dae
+  artifactKey: Guid(eb680f6014108474dbc484d2bd72fa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-440.dae using Guid(eb680f6014108474dbc484d2bd72fa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629c887d4dd5eb496b81c34765ae1345') in 0.119098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-299.dae
+  artifactKey: Guid(b44a406f4595e44cfa7dde7651bf7590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-299.dae using Guid(b44a406f4595e44cfa7dde7651bf7590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acfe4764ba13f052b8884a9f6150340') in 0.188434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-48.dae
+  artifactKey: Guid(52fdd75c433444f27995bb5957a30220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-48.dae using Guid(52fdd75c433444f27995bb5957a30220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc6c98a9e530597d33f3a46c26de1ef') in 0.119411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-331.dae
+  artifactKey: Guid(c0b79b1bbec2046b986c47be4401490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-331.dae using Guid(c0b79b1bbec2046b986c47be4401490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff77492ba3d27c366cd2d8a262e8da2') in 0.152993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-322.dae
+  artifactKey: Guid(4c58cc5d7894c4caea3f553ac77ea164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-322.dae using Guid(4c58cc5d7894c4caea3f553ac77ea164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c235408675f3f00bddd9f3d923998ee') in 0.225071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-213.dae
+  artifactKey: Guid(ccd84237e8f5c4a0b926bd37515e727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-213.dae using Guid(ccd84237e8f5c4a0b926bd37515e727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b36282efca6e8ba24a57d7e7e1e871') in 0.133866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-200.dae
+  artifactKey: Guid(4bae4a9f4ddb448a4b3d4ca48f6db691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-200.dae using Guid(4bae4a9f4ddb448a4b3d4ca48f6db691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb80f84ff6cc3f16433888c33cdebe9') in 0.125944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-504.dae
+  artifactKey: Guid(73236792a34ea41de903748f5c7c0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-504.dae using Guid(73236792a34ea41de903748f5c7c0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4550e6bf3237640b5a61b70d459b6ca9') in 0.086026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-398.dae
+  artifactKey: Guid(66b6a3ec8e54c48608f33302d2ae129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-398.dae using Guid(66b6a3ec8e54c48608f33302d2ae129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5201366047065675d8ca0799028c00b3') in 0.145009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-58.dae
+  artifactKey: Guid(caa4dfff09bb84927a624c3e92f9c921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-58.dae using Guid(caa4dfff09bb84927a624c3e92f9c921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7075af6e2179ae889e63b4b605df544') in 0.163401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-580.dae
+  artifactKey: Guid(b5b4fab14eb72406aae06047e82e8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-580.dae using Guid(b5b4fab14eb72406aae06047e82e8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146ab6e6b7ec71f7d24a51e9dece0f88') in 0.091751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-640.dae
+  artifactKey: Guid(9c9c905be2ea048e981c71377b389770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-640.dae using Guid(9c9c905be2ea048e981c71377b389770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa8246cdaae83fa00aa949532c478c4') in 2.354013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-137.dae
+  artifactKey: Guid(4e8d78434bfa749a0a7f39b6b50f8022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-137.dae using Guid(4e8d78434bfa749a0a7f39b6b50f8022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3a86ec053fa9b85f58b33c26ddef0c') in 0.180806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-117.dae
+  artifactKey: Guid(c76d0da3c133c4750bcc3566c868fe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-117.dae using Guid(c76d0da3c133c4750bcc3566c868fe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3795347a9f05b7b2ad751d6593fa9008') in 0.113458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-481.dae
+  artifactKey: Guid(1fbb5cdb927944085b51867815ba5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-481.dae using Guid(1fbb5cdb927944085b51867815ba5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b57dbb16df4d8d1e9279e281b71fdd') in 0.181597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-517.dae
+  artifactKey: Guid(22032293533d6454dbfcba5d8a33c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-517.dae using Guid(22032293533d6454dbfcba5d8a33c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b514a6427381b136d6ba7166b326d1d') in 0.119680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-498.dae
+  artifactKey: Guid(4c47e566250294e54b0ef2cdbdbee450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-498.dae using Guid(4c47e566250294e54b0ef2cdbdbee450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1843b36753b74f7437b7552514c123f6') in 0.277336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-390.dae
+  artifactKey: Guid(7a52824a4008541b99f1b6ba402d8c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-390.dae using Guid(7a52824a4008541b99f1b6ba402d8c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79084a4f97e4777c4739d1c957e19e9a') in 0.152006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-414.dae
+  artifactKey: Guid(1a4f0a2f8bab84260989f49eef720940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-414.dae using Guid(1a4f0a2f8bab84260989f49eef720940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da73dd33e96544d479235e272e9057e') in 0.134768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-268.dae
+  artifactKey: Guid(26749ab7af06c4f4ba6ad6bc9b71e62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-268.dae using Guid(26749ab7af06c4f4ba6ad6bc9b71e62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feece4064e4a09e05242b0db933186fd') in 0.160866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-97.dae
+  artifactKey: Guid(529ffbe88e7334c289022c575558a73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-97.dae using Guid(529ffbe88e7334c289022c575558a73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8696faaf67c74ffda4b5f0c8558617e3') in 0.114019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-419.dae
+  artifactKey: Guid(c0fd97abe5d71411b870ae0b0c40076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-419.dae using Guid(c0fd97abe5d71411b870ae0b0c40076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781901a7a1fba734d11b51221c419226') in 0.100299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-119.dae
+  artifactKey: Guid(0a5f22a8fbde9471fae8dc11c99d47f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-119.dae using Guid(0a5f22a8fbde9471fae8dc11c99d47f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f37e4889c5e21ecda16483dd94b4e5') in 0.080773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-235.dae
+  artifactKey: Guid(564159f1abb4349dd98cf0428f53d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-235.dae using Guid(564159f1abb4349dd98cf0428f53d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2347212a0309403644d429305fd2d7d4') in 0.127959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-124.dae
+  artifactKey: Guid(ea4ac0c3068fa49ddaba8ae72d21151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-124.dae using Guid(ea4ac0c3068fa49ddaba8ae72d21151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34dab08dfd5a878cb7880934a3973fd') in 0.132865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-84.dae
+  artifactKey: Guid(1746f7b5e48564409b03c3e602f6d578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-84.dae using Guid(1746f7b5e48564409b03c3e602f6d578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce0202907aea7efba9d7079a0087dfe') in 0.143595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-263.dae
+  artifactKey: Guid(695be2bfd3735454ca6477d07b4cf9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-263.dae using Guid(695be2bfd3735454ca6477d07b4cf9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a05369bb21a5e535c6c322167d06c9') in 0.112628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-534.dae
+  artifactKey: Guid(23c4325438ce846268ccfc817c4333d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-534.dae using Guid(23c4325438ce846268ccfc817c4333d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54c180d7b1e5d6192d0a3a074e59b39') in 0.144533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-462.dae
+  artifactKey: Guid(10e4d335b092f440fb83d477802df47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-462.dae using Guid(10e4d335b092f440fb83d477802df47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9ba303f5baaced2aebb39022e622ef') in 0.119165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-381.dae
+  artifactKey: Guid(752d92e20f8b347f4aa2be626d0eed4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-381.dae using Guid(752d92e20f8b347f4aa2be626d0eed4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8609d0525096c07adb679d5b7ea3720d') in 0.107101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-96.dae
+  artifactKey: Guid(6542f9ed8f5ef44e6968c6286b36fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-96.dae using Guid(6542f9ed8f5ef44e6968c6286b36fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7374e095a05d7942b39993dd9bef639b') in 0.182539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-486.dae
+  artifactKey: Guid(101f293d0649d4ab680ef90b83d7ebe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-486.dae using Guid(101f293d0649d4ab680ef90b83d7ebe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660944c926c792543b19118e03f62b9b') in 0.095803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-220.dae
+  artifactKey: Guid(2380f0e978dee43c19d2e2a2babbba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-220.dae using Guid(2380f0e978dee43c19d2e2a2babbba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07452af04b0bf9fbe078e1b4f3e06ac') in 0.128334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-262.dae
+  artifactKey: Guid(8785be4b1de134825b82cb198e43bf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-262.dae using Guid(8785be4b1de134825b82cb198e43bf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c300ad80dccc4f8472aaf375c4ca6747') in 0.096647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-584.dae
+  artifactKey: Guid(6db1fe850abf6410ebb0ddeccbf2016b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-584.dae using Guid(6db1fe850abf6410ebb0ddeccbf2016b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da63dbd25eaddaffe49d8f5948a83c8') in 0.221364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-627.dae
+  artifactKey: Guid(c66f588433b7f4a6bafcca6cfb57e30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-627.dae using Guid(c66f588433b7f4a6bafcca6cfb57e30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc47ee12ebce699b1aedfe6c7d7b2fb') in 0.120047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-208.dae
+  artifactKey: Guid(272ba23c3eb7a4182a318e0910d6c810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-208.dae using Guid(272ba23c3eb7a4182a318e0910d6c810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd111a2e839dec211a67718b12ba5a34e') in 0.144579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-64.dae
+  artifactKey: Guid(4aa6bed35a58f4217aafbe088c7f49f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-64.dae using Guid(4aa6bed35a58f4217aafbe088c7f49f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f54efb604fc9dda91f1b73433007b0') in 0.154231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-372.dae
+  artifactKey: Guid(f6d07a0e6791846fd883418b12848f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-372.dae using Guid(f6d07a0e6791846fd883418b12848f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccac25ab4ed90a518db5ee1df9abca5') in 0.122310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-547.dae
+  artifactKey: Guid(db48fdc8978d24a9e9cabb9762ff5a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-547.dae using Guid(db48fdc8978d24a9e9cabb9762ff5a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a0c488a936e968ebfe50e750b1efb6') in 0.237721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-633.dae
+  artifactKey: Guid(856d65247d12f41e1af82a2b394de889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-633.dae using Guid(856d65247d12f41e1af82a2b394de889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4843ee68350c25cf0517ba63b6318648') in 0.230441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-360.dae
+  artifactKey: Guid(e7356390fb26b4cdf9caad58c4f48b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-360.dae using Guid(e7356390fb26b4cdf9caad58c4f48b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2655d5b5b0755eac67fb7190a9503534') in 0.127911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-104.dae
+  artifactKey: Guid(ea16ca2e185e648b6855d8ee10833ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-104.dae using Guid(ea16ca2e185e648b6855d8ee10833ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59166422695ead3d39add87ff536dc59') in 0.214608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-417.dae
+  artifactKey: Guid(ea4522f6e9a2a4401bb67e7a5a05b248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-417.dae using Guid(ea4522f6e9a2a4401bb67e7a5a05b248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94dfe862a3be251d9cf01ecc4932c977') in 0.082053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/model-0-0.dae
+  artifactKey: Guid(e6c9cc2034d154b14945a29f2aaf20af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/model-0-0.dae using Guid(e6c9cc2034d154b14945a29f2aaf20af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dc01e10e286ca9a0b894da4596e0ed') in 26.643606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-400.dae
+  artifactKey: Guid(36c9d3e4fb7db471b85492289d14e873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-400.dae using Guid(36c9d3e4fb7db471b85492289d14e873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc21c1df0fce143ac041e067affbc28') in 0.145002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-97.dae
+  artifactKey: Guid(ae6ced6c41cba45b08469ef5a3f1a030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-97.dae using Guid(ae6ced6c41cba45b08469ef5a3f1a030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1896fdda09af4607fe7da73a9e02d4a') in 0.128039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-639.dae
+  artifactKey: Guid(fb2c1ff4b15254bb49ab216993129c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-639.dae using Guid(fb2c1ff4b15254bb49ab216993129c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e931e771bdb63de8178de9df4ca80a2d') in 0.139166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-81.dae
+  artifactKey: Guid(319d262a8aa584600918b7305be8a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-81.dae using Guid(319d262a8aa584600918b7305be8a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8381fce135691000271b28d33cfa3588') in 0.101731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-537.dae
+  artifactKey: Guid(68162cb7304a54cac8bcd05ec20d16c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-537.dae using Guid(68162cb7304a54cac8bcd05ec20d16c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a22049a8d7d20cc8b89a80fa2227be1') in 0.095837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-514.dae
+  artifactKey: Guid(b89f96c2b2ab34851994068dae5c6dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-514.dae using Guid(b89f96c2b2ab34851994068dae5c6dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228b2ca4da79d6f8dd99f5743ca8cb33') in 0.165780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-172.dae
+  artifactKey: Guid(3fc8ba0c7cd4c406baa109a9f92ce5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-172.dae using Guid(3fc8ba0c7cd4c406baa109a9f92ce5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8d928b2ba2ed2401e2e033733f1059') in 0.263591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-87.dae
+  artifactKey: Guid(fdea91f2e48a04518bf02062c62ac023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-87.dae using Guid(fdea91f2e48a04518bf02062c62ac023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33af31261eddf0d33b56b6a07c97362f') in 0.144328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-527.dae
+  artifactKey: Guid(a62c5b389cfc743a68b89756a3c9d002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-527.dae using Guid(a62c5b389cfc743a68b89756a3c9d002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86730dcc0aab604da36b82e7dd27392') in 0.151382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-192.dae
+  artifactKey: Guid(4a16f2e2776c043c6ac078b38b660335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-192.dae using Guid(4a16f2e2776c043c6ac078b38b660335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0cd13d3d12bc6f2deb3bcf2783ebd5') in 0.145361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-609.dae
+  artifactKey: Guid(ec89e7642bcc04109a9976d1ea30471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-609.dae using Guid(ec89e7642bcc04109a9976d1ea30471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b46b1e65eac52b700275388657b018b') in 0.109831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-336.dae
+  artifactKey: Guid(935b98b8a03bf4123a965d464e052c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-336.dae using Guid(935b98b8a03bf4123a965d464e052c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c912155e9637c5181fb8a5de428d731') in 0.144402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-540.dae
+  artifactKey: Guid(a253606ba71c64f3e87fef57aee12db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-540.dae using Guid(a253606ba71c64f3e87fef57aee12db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf5927e625b4ae1d4e1f73fa23035ae') in 0.196943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-477.dae
+  artifactKey: Guid(f54e1e806d7bc499dac4fe26b4a0688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-477.dae using Guid(f54e1e806d7bc499dac4fe26b4a0688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dddd939eb01539945c19a01681fbde5') in 0.185283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-457.dae
+  artifactKey: Guid(138ade627b0374b19a97849922f2f82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-457.dae using Guid(138ade627b0374b19a97849922f2f82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4017455d4bcd43100747f2b23f9f5e') in 0.116051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-23.dae
+  artifactKey: Guid(cc165259807174cb8af9b503d88ff751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-23.dae using Guid(cc165259807174cb8af9b503d88ff751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3536814209ea9a71014b1beab6a8e4e') in 0.145836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-460.dae
+  artifactKey: Guid(b661f6ac9bfe54a20be66d62f814db0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-460.dae using Guid(b661f6ac9bfe54a20be66d62f814db0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e326310e94878e62f00be6e839b0af') in 0.157138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-394.dae
+  artifactKey: Guid(1a25434550a804e0fb868cb6272e07db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-394.dae using Guid(1a25434550a804e0fb868cb6272e07db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f1a338090fd4bf580b1f4bb22e7140') in 0.081550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-557.dae
+  artifactKey: Guid(88ddf81ce79f74b6589b0b9990384ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-557.dae using Guid(88ddf81ce79f74b6589b0b9990384ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27af1b70581fcf754964d0bb1abd8e1b') in 0.134243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-520.dae
+  artifactKey: Guid(61f8bf503d13745a0ad6e1386b893486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-520.dae using Guid(61f8bf503d13745a0ad6e1386b893486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b38af72b28d68974f292e58f41ece6') in 0.163005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-605.dae
+  artifactKey: Guid(12744238bcda04fe4aad505c4971a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-605.dae using Guid(12744238bcda04fe4aad505c4971a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ace1d6c0073fbd8c0e4d34339cf32b9') in 0.153407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-458.dae
+  artifactKey: Guid(e4b1c904d4041422e9418f13bfac3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-458.dae using Guid(e4b1c904d4041422e9418f13bfac3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83edba23dec499470c3f955895c581a1') in 0.127702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-114.dae
+  artifactKey: Guid(9b51301e8921d4043a02dfc620e30506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-114.dae using Guid(9b51301e8921d4043a02dfc620e30506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736c39031e6d6f0f0ad58493c06bc8ec') in 0.166738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-89.dae
+  artifactKey: Guid(ba81d80c3d7a04f36a752e67507500bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-89.dae using Guid(ba81d80c3d7a04f36a752e67507500bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412dc277a044cb8fdb97c2824871a9be') in 0.166429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-524.dae
+  artifactKey: Guid(75bbbb754112c4984aa7d3e264a7c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-524.dae using Guid(75bbbb754112c4984aa7d3e264a7c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deebc66f247adea072797f6a7c1f327') in 0.107093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-43.dae
+  artifactKey: Guid(446ea8a38a0be413798012c35f418a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-43.dae using Guid(446ea8a38a0be413798012c35f418a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46dc4935e574608dfde8dc4df38461e') in 0.131064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-216.dae
+  artifactKey: Guid(379948aeaee744efb8e3f769be90eff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-216.dae using Guid(379948aeaee744efb8e3f769be90eff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f0575345bbc580c7f839bb27d274c8') in 0.116410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-44.dae
+  artifactKey: Guid(2f0f7e9241c244642aaa1e7aee8c3f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-44.dae using Guid(2f0f7e9241c244642aaa1e7aee8c3f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43a90b9a86d4239f6d3c90d1a549f1d') in 0.144589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-436.dae
+  artifactKey: Guid(0064317a8840443fca41dad3484ff41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-436.dae using Guid(0064317a8840443fca41dad3484ff41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98044fba18bbbe536ed3d2440d66b0f') in 0.182729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-190.dae
+  artifactKey: Guid(7adb872b707ca4a62b031b6e179b7980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-190.dae using Guid(7adb872b707ca4a62b031b6e179b7980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571ba88cdf266c9ccda080fbd81f8aec') in 0.109779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-347.dae
+  artifactKey: Guid(f3a83dd1ae5b541b688355ac7adec558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-347.dae using Guid(f3a83dd1ae5b541b688355ac7adec558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f8efc5e5b35c31832ae07da1f3e4d7') in 0.141214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-583.dae
+  artifactKey: Guid(5b22ef6c3905e47f08ac3cb2bfa8aa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-583.dae using Guid(5b22ef6c3905e47f08ac3cb2bfa8aa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dd6dee35f293bf69061537cc87b37f') in 0.091101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-58.dae
+  artifactKey: Guid(f4389ca586903483a9101159083883a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-58.dae using Guid(f4389ca586903483a9101159083883a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e604c929076d0348df6a5bf9e6b6b6') in 0.150286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-284.dae
+  artifactKey: Guid(c71b5b2c9002e4840b37f3a83c521623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-284.dae using Guid(c71b5b2c9002e4840b37f3a83c521623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5c5786aa869ecdde9f186b82233cef') in 0.094686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-651.dae
+  artifactKey: Guid(b97792edd9a3a4f5bbc153b92135738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-651.dae using Guid(b97792edd9a3a4f5bbc153b92135738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0219b6837d8c95c2d576521d65d998f0') in 0.158687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-426.dae
+  artifactKey: Guid(4e19c743e04d94d25b7c14b39c2b9fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-426.dae using Guid(4e19c743e04d94d25b7c14b39c2b9fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ded1d8a37bf13c85182e20739da463') in 2.904026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-227.dae
+  artifactKey: Guid(1d8f3af57d4114500bfca80bf36881d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-227.dae using Guid(1d8f3af57d4114500bfca80bf36881d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cbba28bc85d701408c2c1b4da36e54') in 0.570810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-293.dae
+  artifactKey: Guid(c291d6e970a934f1dbec7ef80ae3571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-293.dae using Guid(c291d6e970a934f1dbec7ef80ae3571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7b6f53ed425af1698b4e04086297b8') in 0.110373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-359.dae
+  artifactKey: Guid(4388ecc3e7d4f48fa8787abe3f44d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-359.dae using Guid(4388ecc3e7d4f48fa8787abe3f44d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd69a5fc3aaf2d86f6d7c57421d70ebc') in 0.112808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-412.dae
+  artifactKey: Guid(48a7f54949124434b902a68fd8b153ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-412.dae using Guid(48a7f54949124434b902a68fd8b153ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ca34dffcfabd866408fb6dfa54eef6') in 0.115390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-78.dae
+  artifactKey: Guid(d6123971d3630408882dbe2c144b10a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-78.dae using Guid(d6123971d3630408882dbe2c144b10a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4470242c34984a3ef9be9dc1ab31dd10') in 0.120933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-252.dae
+  artifactKey: Guid(fd0b49b281f384bd6904dcbd27203d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-252.dae using Guid(fd0b49b281f384bd6904dcbd27203d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc27ff3607027a191ccf8f125a5657f') in 0.120282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-130.dae
+  artifactKey: Guid(6c3254a72e30d41c0b6d5f9ad5dc8fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-130.dae using Guid(6c3254a72e30d41c0b6d5f9ad5dc8fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090f6010d156a43aafc498685f1ba4fa') in 0.148941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-140.dae
+  artifactKey: Guid(cd48b116c8b444e999c7fa626a248c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-140.dae using Guid(cd48b116c8b444e999c7fa626a248c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9eee2edb7b084b05c7dcc41f9a7f88') in 0.091786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-5.dae
+  artifactKey: Guid(5f8ebc2a92b554667bf4d6c66ceed188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-5.dae using Guid(5f8ebc2a92b554667bf4d6c66ceed188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b27b8983301bd95710dfc19c9d41df5') in 0.086031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-285.dae
+  artifactKey: Guid(97479b9a66e4e4e228a01d633464f7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-285.dae using Guid(97479b9a66e4e4e228a01d633464f7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989a54a8b95efde1a3437680988194ae') in 0.109365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-84.dae
+  artifactKey: Guid(174b92c0612644572a7a90aa4be710e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-84.dae using Guid(174b92c0612644572a7a90aa4be710e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af262525ac5095bc2c2950b04a5f8539') in 0.180504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-199.dae
+  artifactKey: Guid(893e4e4ee26a34e35a7a4ea6d43e93a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-199.dae using Guid(893e4e4ee26a34e35a7a4ea6d43e93a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4932a1f839ab10f1a6b3127a25c670c8') in 0.157215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-191.dae
+  artifactKey: Guid(545446e2f2e4d4c7f925c8936fbad825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-191.dae using Guid(545446e2f2e4d4c7f925c8936fbad825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6128a906ee7d22c9d85695a78cbb0c30') in 0.083818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-637.dae
+  artifactKey: Guid(6cdaaa985c0504de0ae3f93bcda239a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-637.dae using Guid(6cdaaa985c0504de0ae3f93bcda239a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5e7abbb6df6d7b80bea27661eb8f4c') in 0.177514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-17.dae
+  artifactKey: Guid(b4a6640af36cd408da3260c837586a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-17.dae using Guid(b4a6640af36cd408da3260c837586a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f369f21eca08f5c057cc62015636a2') in 0.148266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-598.dae
+  artifactKey: Guid(e99655950b63e460c96037d45c7c9000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-598.dae using Guid(e99655950b63e460c96037d45c7c9000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034a23c615a94ed57c69c2e4f8e62eca') in 0.142789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-529.dae
+  artifactKey: Guid(156049c068e6d463593b4dd3f7aca5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-529.dae using Guid(156049c068e6d463593b4dd3f7aca5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1718cb762a524ad616bf9817eafd36') in 0.116761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-136.dae
+  artifactKey: Guid(d3846a51c76a746ad97c3cdc2acf0bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-136.dae using Guid(d3846a51c76a746ad97c3cdc2acf0bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc463d959118db8200e98895fed921f') in 0.131051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-307.dae
+  artifactKey: Guid(7fbb5488bfda24b04800a7e8ae367fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-307.dae using Guid(7fbb5488bfda24b04800a7e8ae367fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bba335f0c34ff7f7312a3964830f5f') in 0.140480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-141.dae
+  artifactKey: Guid(9810aa7f7a7a44296a8573bce263ee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-141.dae using Guid(9810aa7f7a7a44296a8573bce263ee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c865bb487bc324c0ddda1230d23875ef') in 0.105324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-122.dae
+  artifactKey: Guid(6c10093aec0554d02b8978b2dd074bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-122.dae using Guid(6c10093aec0554d02b8978b2dd074bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952aa26d25cb377108b8f860bda7d9fc') in 0.104884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-142.dae
+  artifactKey: Guid(ec4af2318a0624b6fb773760011da963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-142.dae using Guid(ec4af2318a0624b6fb773760011da963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c658f0aa7d1ba2e47937e530805d4e0d') in 0.116225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-393.dae
+  artifactKey: Guid(3d4761eb7c00b42d68d673d9de3870cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-393.dae using Guid(3d4761eb7c00b42d68d673d9de3870cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3522c61798b92f371d30da700cdb5a69') in 0.080147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-479.dae
+  artifactKey: Guid(c686942630bb5419780ee5697ed46777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-479.dae using Guid(c686942630bb5419780ee5697ed46777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0076c2956db556be315adbc655b378') in 0.148757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-236.dae
+  artifactKey: Guid(0e635b6c1531d4899b0348244abd75df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-236.dae using Guid(0e635b6c1531d4899b0348244abd75df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3292c7e9e9ca33419cdd07069ec6b383') in 0.083451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-325.dae
+  artifactKey: Guid(1fe4243a1e9d848e0ad818ecb39b2231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-325.dae using Guid(1fe4243a1e9d848e0ad818ecb39b2231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dda1f3c9442cbaad0eda991d7829b3') in 0.111143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-12.dae
+  artifactKey: Guid(99949c091bdc44099ad3eee46eb0b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-12.dae using Guid(99949c091bdc44099ad3eee46eb0b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dd6ac24bf3646af50ad7d0e520a99d') in 0.111954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-568.dae
+  artifactKey: Guid(232d371df84ff468aad2f02336ef89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-568.dae using Guid(232d371df84ff468aad2f02336ef89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc79676b9a6751edf437c590e0cb2f9') in 0.162685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-571.dae
+  artifactKey: Guid(02d8c2f16f2614c0eb12ef0cc38d5fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-571.dae using Guid(02d8c2f16f2614c0eb12ef0cc38d5fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1651ac81468a9c711ee6261103f6c41') in 0.216740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-53.dae
+  artifactKey: Guid(177603e39a5a74904a9b0810059de5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-53.dae using Guid(177603e39a5a74904a9b0810059de5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dde0c2a69c3ec77aac2e700c2d3a740') in 0.148413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-575.dae
+  artifactKey: Guid(b1d4761a97265479d904c03777d02930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-575.dae using Guid(b1d4761a97265479d904c03777d02930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7133bce5ef528c7c64b2039804d7c953') in 0.148852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-37.dae
+  artifactKey: Guid(bd9ff71bc4a2c4849aa5e0bf421a8ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-37.dae using Guid(bd9ff71bc4a2c4849aa5e0bf421a8ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973430986b7b32bd1fae3d8b16c77567') in 0.117616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-237.dae
+  artifactKey: Guid(7fb3cab985ac24d71ab876a859cc43dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-237.dae using Guid(7fb3cab985ac24d71ab876a859cc43dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2b7e89e04fc47a09717e0502d9f0ae') in 0.074326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-274.dae
+  artifactKey: Guid(168a398c9beef403a91914cb37bbf92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-274.dae using Guid(168a398c9beef403a91914cb37bbf92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ef120bba1d65a94dad7b4b7cc37538') in 0.111820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-243.dae
+  artifactKey: Guid(44ad0cecf2ae74635a651a1798ddb802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-243.dae using Guid(44ad0cecf2ae74635a651a1798ddb802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38a2fb9f46d0873ddd8b47508567327') in 0.112733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-106.dae
+  artifactKey: Guid(75d1d1580432e4d81925a10250f6adc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-106.dae using Guid(75d1d1580432e4d81925a10250f6adc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361c4ad457d8fd2b43af8e5992bb7625') in 0.096518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-586.dae
+  artifactKey: Guid(50939080a31fe444fb9a855a60d22abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-586.dae using Guid(50939080a31fe444fb9a855a60d22abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba08cc84df5e74a2989b5ce0cc070e52') in 0.115741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-7.dae
+  artifactKey: Guid(4132c8669961e4b8cad6864196777676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-7.dae using Guid(4132c8669961e4b8cad6864196777676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4352a138d34f75084a3a40937bcf5688') in 0.128827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-62.dae
+  artifactKey: Guid(0ebd10c12a1d749fab605b3765565862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-62.dae using Guid(0ebd10c12a1d749fab605b3765565862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b576c33f1e2cba25f0a97674cdfad76') in 0.105855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-139.dae
+  artifactKey: Guid(12a534868801a4f6082313fb8e83938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-139.dae using Guid(12a534868801a4f6082313fb8e83938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba003f073bf75cac5428e3cd335bb2b') in 0.103269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-257.dae
+  artifactKey: Guid(f368cf443599047b191e4a65d8416997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-257.dae using Guid(f368cf443599047b191e4a65d8416997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a606ab5d99cd99d0d97402486c1ab6e3') in 0.098814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-611.dae
+  artifactKey: Guid(058968192d89d4862a1068ffc4eedb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-611.dae using Guid(058968192d89d4862a1068ffc4eedb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af74a8ed34ac6864f000a180c1e54c5') in 0.152141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-431.dae
+  artifactKey: Guid(10a1a3332a6534c4eb871711e0f274df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-431.dae using Guid(10a1a3332a6534c4eb871711e0f274df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb82f5fa6173ac643b3bffedd1fb0a6') in 0.178887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-135.dae
+  artifactKey: Guid(c71ad760e34f74e15a1f71fcb2664951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-135.dae using Guid(c71ad760e34f74e15a1f71fcb2664951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1b3ee20be3349700268fe5547d3b3f') in 0.130925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-49.dae
+  artifactKey: Guid(90f189e2b6158468ea8229bd0bbed802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-49.dae using Guid(90f189e2b6158468ea8229bd0bbed802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3a58f8f7ccf5854057a17ffdb136b0') in 0.106992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-656.dae
+  artifactKey: Guid(b8845b8a92ddc46d7a321f21609009fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-656.dae using Guid(b8845b8a92ddc46d7a321f21609009fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4557292c0a8811b4790221511ecd10') in 0.117135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-156.dae
+  artifactKey: Guid(186d15d55628f40f2a0cac250588d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-156.dae using Guid(186d15d55628f40f2a0cac250588d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3a1fbb51af36c5e649f5310bbe8334') in 0.126288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-396.dae
+  artifactKey: Guid(0e1c5f7d4ffd2405bad502f66a380869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-396.dae using Guid(0e1c5f7d4ffd2405bad502f66a380869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6985d4b51082d6dddf25cc7a82f14cae') in 0.077831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-127.dae
+  artifactKey: Guid(0885b01bd5c3f40b89f52ac6012e52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-127.dae using Guid(0885b01bd5c3f40b89f52ac6012e52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33c1d8f8bf8d6bc5aa7292e4a91b096') in 0.092960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-647.dae
+  artifactKey: Guid(9c6b4da267ec944468c498fa60795762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-647.dae using Guid(9c6b4da267ec944468c498fa60795762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13916f514c940afe6e8c0f6df8e705c') in 0.304168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-219.dae
+  artifactKey: Guid(21c81aaf7960543a0a185678cc8be8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-219.dae using Guid(21c81aaf7960543a0a185678cc8be8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2516e10491a3fdfd40dc0bb31eaf1c52') in 0.088213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-125.dae
+  artifactKey: Guid(66c445c3e751e4a74b75a17f0f84c49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-125.dae using Guid(66c445c3e751e4a74b75a17f0f84c49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12cbd9b89695f8ba537ac3070c113b1') in 0.219812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-494.dae
+  artifactKey: Guid(d9c65f8f9eadf4ee2af15aa5e22d26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-494.dae using Guid(d9c65f8f9eadf4ee2af15aa5e22d26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa66336076822e4ccf37c1703dc68ea2') in 0.107027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-357.dae
+  artifactKey: Guid(694aa03e585334826aa570b4fa42a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-357.dae using Guid(694aa03e585334826aa570b4fa42a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e8d925b7a7cd92050ef5c1c0550d96') in 0.136732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-94.dae
+  artifactKey: Guid(7a1d4d8b06cf54081bd345ba847a8739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-94.dae using Guid(7a1d4d8b06cf54081bd345ba847a8739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76688c78fe920f46c295cffe7cdcabe') in 0.121138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-418.dae
+  artifactKey: Guid(d548373399f284f83b7390fba75fd019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-418.dae using Guid(d548373399f284f83b7390fba75fd019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0866b70731b63f519c5a5fc449274f15') in 0.190893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-332.dae
+  artifactKey: Guid(02ea14a1954194bb3bdaf47217150420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-332.dae using Guid(02ea14a1954194bb3bdaf47217150420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604f8dfd8c93ae4156d4b374ca903873') in 1.191226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-333.dae
+  artifactKey: Guid(8a828cd717be64b53942dd31e433341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-333.dae using Guid(8a828cd717be64b53942dd31e433341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971b1d18a11fd582b6dacfbcfdf7ef42') in 0.111986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-610.dae
+  artifactKey: Guid(9709418e03a774aa7a64c6d1b5351002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-610.dae using Guid(9709418e03a774aa7a64c6d1b5351002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34114edd6d35218ea72e4a687a7e5b89') in 0.106131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-143.dae
+  artifactKey: Guid(195b3b55d956e45e2852186614258ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-143.dae using Guid(195b3b55d956e45e2852186614258ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829a275222920fee312be3ad71a88fea') in 0.144987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-245.dae
+  artifactKey: Guid(a83d7286e98e347a6bcd12aaf1f3ce1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-245.dae using Guid(a83d7286e98e347a6bcd12aaf1f3ce1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f012ce8a6ff1500985559eea4d3dbf72') in 0.079809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-564.dae
+  artifactKey: Guid(c89164f506ae64d94940dfd311161e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-564.dae using Guid(c89164f506ae64d94940dfd311161e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2583f36455ad8c970b815e9953d02799') in 0.154304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-553.dae
+  artifactKey: Guid(f188de7eb9b1e422f9a7262812fb4ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-553.dae using Guid(f188de7eb9b1e422f9a7262812fb4ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148a16b0cd0c93bbb61f167c2e61fa3a') in 0.107316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-40.dae
+  artifactKey: Guid(2a4ec67c121714555bc2b8163681d5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-40.dae using Guid(2a4ec67c121714555bc2b8163681d5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c77e76783fb49f72e82de4504cdb45') in 0.148207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-364.dae
+  artifactKey: Guid(448bb4ea46e554cf5bfd816ce76645c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-364.dae using Guid(448bb4ea46e554cf5bfd816ce76645c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f125af50f0c918d587d293bda657528e') in 0.080419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-645.dae
+  artifactKey: Guid(aea80863b905642d794e84f115024870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-645.dae using Guid(aea80863b905642d794e84f115024870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082055f58bf70b36ed6417e0941d1d95') in 0.138171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-465.dae
+  artifactKey: Guid(09ffc1499a00c46e189fae9eb0d06250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-465.dae using Guid(09ffc1499a00c46e189fae9eb0d06250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9837af2e969d05689e9b9b82b8194c0d') in 0.140615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-388.dae
+  artifactKey: Guid(1a8f852315b28406d993b3fc8e16edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-388.dae using Guid(1a8f852315b28406d993b3fc8e16edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a018b3ef63f48ee32430beb632096a') in 0.121093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-273.dae
+  artifactKey: Guid(7ceebdbf1fc8349e29a903c35aa09913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-273.dae using Guid(7ceebdbf1fc8349e29a903c35aa09913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8c1fd5f54f5fefc51e26bed3ebdb17') in 0.171956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-16.dae
+  artifactKey: Guid(2feb98b509ebd4e15bcd2944a9b731ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-16.dae using Guid(2feb98b509ebd4e15bcd2944a9b731ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efc7417d659ee48664db4c95f920c0a') in 0.104269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-239.dae
+  artifactKey: Guid(7024e6c2c83c847e48c268bf4358af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-239.dae using Guid(7024e6c2c83c847e48c268bf4358af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bca77abff544e94d0be3d3f5eb7b69') in 0.131270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-506.dae
+  artifactKey: Guid(7aba286199b994fc6beb05d94df889fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-506.dae using Guid(7aba286199b994fc6beb05d94df889fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf35716cd42b330fe9eea770743935b') in 0.147257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-425.dae
+  artifactKey: Guid(95c2648efb7b44964b1bf1296a61ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-425.dae using Guid(95c2648efb7b44964b1bf1296a61ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbab833d273828ebfec37fd150cbdb3') in 0.147359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-482.dae
+  artifactKey: Guid(4c53c6090c16c4745af17bc47121bcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-482.dae using Guid(4c53c6090c16c4745af17bc47121bcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f57507812cc37c04a0a8020f6a7bd6d') in 0.114766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-469.dae
+  artifactKey: Guid(c4f11ead77c8f4570b8b5d4b98da022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-469.dae using Guid(c4f11ead77c8f4570b8b5d4b98da022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b272882f74127346507047996b99bffc') in 0.123927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-79.dae
+  artifactKey: Guid(cc12616eb539f4377bd21a1bc1a6d0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-79.dae using Guid(cc12616eb539f4377bd21a1bc1a6d0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf1f9eabfc6a3411184ef8a6ff8151e') in 0.151428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-198.dae
+  artifactKey: Guid(e759a71bd35514bee973cb708a558ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-198.dae using Guid(e759a71bd35514bee973cb708a558ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb538b60813266770fd0d62f24fa874') in 0.104993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-49.dae
+  artifactKey: Guid(e712cbadde36a4031a0a9c916ea1af06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-49.dae using Guid(e712cbadde36a4031a0a9c916ea1af06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0f3cd55eb4dde37e647f7d73dfd626') in 0.093292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-103.dae
+  artifactKey: Guid(23ea529572d1444e39dee089b7c1b0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-103.dae using Guid(23ea529572d1444e39dee089b7c1b0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c1861854699078fe801556ad3d7541') in 0.127046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-217.dae
+  artifactKey: Guid(696c9156f71e948e5a85a1a1e40d2fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-217.dae using Guid(696c9156f71e948e5a85a1a1e40d2fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83981da7211abfda48e9d7d426e25bb4') in 0.099117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-170.dae
+  artifactKey: Guid(e7c587f78e5b64d738aef20ae5d28e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-170.dae using Guid(e7c587f78e5b64d738aef20ae5d28e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8ddb01428f3724bbd73e98576532d1') in 0.107476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-622.dae
+  artifactKey: Guid(c0fafce8eda93440abfe3f16081fae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-622.dae using Guid(c0fafce8eda93440abfe3f16081fae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66f18af0fbcd06e6d755aad9bf81e59') in 0.096673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-386.dae
+  artifactKey: Guid(3a44da550f1d04f95a73247ce47c5f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-386.dae using Guid(3a44da550f1d04f95a73247ce47c5f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6478a4601118d0de3c2ec44945a633') in 0.107146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-499.dae
+  artifactKey: Guid(15b07248850b245b9b0cda8cc0121219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-499.dae using Guid(15b07248850b245b9b0cda8cc0121219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35bd762b7b9a394580093c35828785e') in 0.070954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-98.dae
+  artifactKey: Guid(d9499ba983bb4449f82c27226a829032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-98.dae using Guid(d9499ba983bb4449f82c27226a829032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547abee06f327a78c2269ecc3c5a5208') in 0.099355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-501.dae
+  artifactKey: Guid(7dc98350035b84546b05a95be1f82761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-501.dae using Guid(7dc98350035b84546b05a95be1f82761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6672e7059f03e6b7f798c7f378ae6a7b') in 0.123552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-304.dae
+  artifactKey: Guid(6aee0bb34d97d41999110d0fc4719d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-304.dae using Guid(6aee0bb34d97d41999110d0fc4719d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bc35e42420e112be8391909c46cd65') in 0.079703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-59.dae
+  artifactKey: Guid(a710474cc51e94293991e3c35f601879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-59.dae using Guid(a710474cc51e94293991e3c35f601879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79597d947347cd0ce69e1947237276fb') in 0.115050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-22.dae
+  artifactKey: Guid(c9f2b21747422473e8b2473a4115f65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-22.dae using Guid(c9f2b21747422473e8b2473a4115f65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fa1f3424e20db317f2575450fadd1c') in 0.095750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-171.dae
+  artifactKey: Guid(3ad070446cc71452c8de2614c1e85af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-171.dae using Guid(3ad070446cc71452c8de2614c1e85af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a506962f9f8a90a7746d7a009885eb') in 0.144393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-638.dae
+  artifactKey: Guid(90deba094520448559cba59f3335b22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-638.dae using Guid(90deba094520448559cba59f3335b22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e7659dc583d2fea0901fd3af4bba4e') in 0.103096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-100.dae
+  artifactKey: Guid(24dd0b79d6d6a476d9d1f5c395fc61e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-100.dae using Guid(24dd0b79d6d6a476d9d1f5c395fc61e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cffe2aa6286dd06807b3be177eef434') in 0.149627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-368.dae
+  artifactKey: Guid(3fb2d605143284fbc9ebb34252445af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-368.dae using Guid(3fb2d605143284fbc9ebb34252445af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27cb735275121e85aa99a1710df339d') in 0.139178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-395.dae
+  artifactKey: Guid(b9bc96178e8554535b8d96c08b7568ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-395.dae using Guid(b9bc96178e8554535b8d96c08b7568ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572a0fd3b12dcfab8f2e90860f682075') in 0.079954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-573.dae
+  artifactKey: Guid(717fcb833c2e447dc9eedc5b071995af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-573.dae using Guid(717fcb833c2e447dc9eedc5b071995af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343780b79dbd329292ee161e3149f755') in 0.151635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-408.dae
+  artifactKey: Guid(b5776a35042854cc39682cd9011b738e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-408.dae using Guid(b5776a35042854cc39682cd9011b738e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04228b8c7b13fe3f5381d4dcd9df180') in 0.092988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-604.dae
+  artifactKey: Guid(d2983fcaf96a44b98a5a03797f7054b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-604.dae using Guid(d2983fcaf96a44b98a5a03797f7054b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a75d05b1d89757e4fb79c90160531a2') in 2.631462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-387.dae
+  artifactKey: Guid(2d2a8323433b946088abf77999df2052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-387.dae using Guid(2d2a8323433b946088abf77999df2052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80784a1eb9be11a584f4a6956baec33') in 0.501934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-318.dae
+  artifactKey: Guid(a53f8118db9444b9c9be2518e08284a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-318.dae using Guid(a53f8118db9444b9c9be2518e08284a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc640f72506c74df2c3f70e004b41103') in 0.339446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-549.dae
+  artifactKey: Guid(97646ce9bc2e544e4ac4facdc862cd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-549.dae using Guid(97646ce9bc2e544e4ac4facdc862cd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48cfb420fcb2c50d3d66e3f1d6ffaf6') in 0.120178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-163.dae
+  artifactKey: Guid(381ac8023627a4d3d8f7a83e788cfaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-163.dae using Guid(381ac8023627a4d3d8f7a83e788cfaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31ea9c94f89f44e1d994efd2d403d16') in 0.162509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-264.dae
+  artifactKey: Guid(9b5d637b902494f66bb54392078100a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-264.dae using Guid(9b5d637b902494f66bb54392078100a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb8b89233d434b4a8dc0a5a8cb6de31') in 0.260432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-179.dae
+  artifactKey: Guid(7a9103bbefd7d4e85856c5f466e90aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-179.dae using Guid(7a9103bbefd7d4e85856c5f466e90aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e46b6b7554f7d5b3f4e81f87fca48e5') in 0.099824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-51.dae
+  artifactKey: Guid(a6966d7afa68c464c8ef61cf638e7639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-51.dae using Guid(a6966d7afa68c464c8ef61cf638e7639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c71e397711d80f3d54f251bf41653b') in 0.165773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-539.dae
+  artifactKey: Guid(159ecc0fb7e2a4c3e86837ad4fbad5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-539.dae using Guid(159ecc0fb7e2a4c3e86837ad4fbad5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64935407372ec3cc7e2c0f033da75045') in 0.129800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-281.dae
+  artifactKey: Guid(f4508242156cc457f9adacc697db904d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-281.dae using Guid(f4508242156cc457f9adacc697db904d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b928c5b8e0106d15adc6e2d22bc120') in 0.132355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-356.dae
+  artifactKey: Guid(2815ab4056d2349e4811945953ed76c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-356.dae using Guid(2815ab4056d2349e4811945953ed76c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3467165f0d3227e940d324cbcb11565e') in 1.846232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-429.dae
+  artifactKey: Guid(d71280d2a3e90437faaea97cd1cfdaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-429.dae using Guid(d71280d2a3e90437faaea97cd1cfdaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026046969783d1089efbc93bb805f2c1') in 0.106122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-206.dae
+  artifactKey: Guid(f8f711b27e0434b3982a06c0163c4c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-206.dae using Guid(f8f711b27e0434b3982a06c0163c4c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059fa9dce146d93faec5acfa4da98f5e') in 0.108164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-113.dae
+  artifactKey: Guid(b8238dfca765c42cf96cfe1d5f4475fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-113.dae using Guid(b8238dfca765c42cf96cfe1d5f4475fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaba091f01d72b917f085d16df05e84') in 0.159787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-461.dae
+  artifactKey: Guid(a700a536a40394e60949dde116760209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-461.dae using Guid(a700a536a40394e60949dde116760209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6d8e5fce8805f395753dc7abaddc2a') in 0.118489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-13.dae
+  artifactKey: Guid(bb86222e723634a4dad5914921ad9036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-13.dae using Guid(bb86222e723634a4dad5914921ad9036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4e1b77aac7279afa16f39a3dffd10a') in 0.085632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-244.dae
+  artifactKey: Guid(5638cb16904d243e5a71db538c1a1bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-244.dae using Guid(5638cb16904d243e5a71db538c1a1bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc476b51d1d5dfc09978fb594611a079') in 0.110510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-102.dae
+  artifactKey: Guid(574eb536b33944571bc5ab3acc083c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-102.dae using Guid(574eb536b33944571bc5ab3acc083c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a9486770659f0baf8c611f88b9b12a') in 0.104282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-215.dae
+  artifactKey: Guid(b4d41d1b2675a4c3ea3d929f67c80fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-215.dae using Guid(b4d41d1b2675a4c3ea3d929f67c80fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91b7bf41291330c1a126ac5ae40a3e5') in 0.082106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-601.dae
+  artifactKey: Guid(6ce7e0db7fee74253aa1347bc23d9eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-601.dae using Guid(6ce7e0db7fee74253aa1347bc23d9eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773f0f2544346712603f463e00dc92e8') in 0.086596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-310.dae
+  artifactKey: Guid(97b055e908c4e4d4980f897ed0014631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-310.dae using Guid(97b055e908c4e4d4980f897ed0014631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068bc6b0ba035226953d0f44058f5d80') in 0.088377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-52.dae
+  artifactKey: Guid(0d1c685c69c2440ea9f825073d8bccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-52.dae using Guid(0d1c685c69c2440ea9f825073d8bccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7daf063331689661bd3c889fd155f0') in 0.138878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-71.dae
+  artifactKey: Guid(a7fa7e0d3e42546e587addbef5b9fdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-71.dae using Guid(a7fa7e0d3e42546e587addbef5b9fdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d4e1e0cccf102a23de7f4f6b29a0ce') in 0.077434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-361.dae
+  artifactKey: Guid(22eb817172399489c8dd777a59f40e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-361.dae using Guid(22eb817172399489c8dd777a59f40e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57603f93b6dd11a8fb23d99fc8a0f92b') in 0.102631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-114.dae
+  artifactKey: Guid(c372f75a770e14c6d880d8082c0b7758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-114.dae using Guid(c372f75a770e14c6d880d8082c0b7758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11de7591a0a12ecdf1271ee557aa4d7') in 0.114850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-321.dae
+  artifactKey: Guid(f25e06c62cb9146d2aa1ef0fd86464e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-321.dae using Guid(f25e06c62cb9146d2aa1ef0fd86464e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e658bfece29cebcf1854591ca4ba06') in 0.084866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-60.dae
+  artifactKey: Guid(4a3947e419177416b8f942d514ecff6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-60.dae using Guid(4a3947e419177416b8f942d514ecff6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff535963ef8a1be4bff9950ed2d51437') in 0.185056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-485.dae
+  artifactKey: Guid(45775c65554b743abb5c783f91d89cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-485.dae using Guid(45775c65554b743abb5c783f91d89cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1344ca2cd146dfb211b91f06a473e0d') in 0.097771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-602.dae
+  artifactKey: Guid(0d3a16803bab84087a5dc9cac17ea1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-602.dae using Guid(0d3a16803bab84087a5dc9cac17ea1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbaaa149d689457606d7cd6cbb3dc4e') in 0.097852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-490.dae
+  artifactKey: Guid(01bcc261e6caf45c498de4db3b8f48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-490.dae using Guid(01bcc261e6caf45c498de4db3b8f48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6992b17cee102572f2210d48a66560d6') in 0.097070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-522.dae
+  artifactKey: Guid(994fc5d36d69447cd841d386e8acf806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-522.dae using Guid(994fc5d36d69447cd841d386e8acf806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86df10d26d367827a588ea1d237aa3f') in 0.129479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-73.dae
+  artifactKey: Guid(582508ca64dc84d3abc6fb0b8c4d5b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-73.dae using Guid(582508ca64dc84d3abc6fb0b8c4d5b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd00d52d9b4170cf473ffa86c8bd3e07') in 0.114100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-468.dae
+  artifactKey: Guid(cd0d4e0734f0944c9bc167b4d289d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-468.dae using Guid(cd0d4e0734f0944c9bc167b4d289d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb651ed09d8fee83e062af7553e9cd27') in 0.139983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-42.dae
+  artifactKey: Guid(b531c6716cc8548b9a1bd6c2540b4b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-42.dae using Guid(b531c6716cc8548b9a1bd6c2540b4b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11edba82a181bb421f1c51c8fd9c6abf') in 0.100637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-46.dae
+  artifactKey: Guid(12069e3ae74b14fea8f3af53029ac75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-46.dae using Guid(12069e3ae74b14fea8f3af53029ac75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e030c6b12bb7e38f205173ab57d551') in 0.092854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-72.dae
+  artifactKey: Guid(0e75b2c1b7950420eaad419b52698722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-72.dae using Guid(0e75b2c1b7950420eaad419b52698722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4114de2eb9b0fff19bdb7f342327e726') in 0.066926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-247.dae
+  artifactKey: Guid(3a65bd7c7f56a4a64b5286fde7729884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-247.dae using Guid(3a65bd7c7f56a4a64b5286fde7729884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49358f99ff1b0882d70b75ef0d7bd2e6') in 0.080336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-112.dae
+  artifactKey: Guid(03d3348f06ad947f7aa5c481ab887f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-112.dae using Guid(03d3348f06ad947f7aa5c481ab887f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd13fe7a3efbea32f96bb03a7edf919') in 0.158229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-4.dae
+  artifactKey: Guid(6fd80f311250042eca2db2983855196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-4.dae using Guid(6fd80f311250042eca2db2983855196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0926fa198982d3852a5e6e517892ea') in 0.111674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-565.dae
+  artifactKey: Guid(b716d79a2b07c4430b55afc179147d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-565.dae using Guid(b716d79a2b07c4430b55afc179147d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb1f0e40538832098c9c858b96aab05') in 0.120255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-542.dae
+  artifactKey: Guid(311da5ec39cb145f5814c12d97449a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-542.dae using Guid(311da5ec39cb145f5814c12d97449a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3df37cfb1e538dc501c7f9906e78e6') in 0.090637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-569.dae
+  artifactKey: Guid(a26fe5156b93f43fc8cd6539f517c957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-569.dae using Guid(a26fe5156b93f43fc8cd6539f517c957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793e73df0cf406eeb78847d3752dcf35') in 0.112228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-67.dae
+  artifactKey: Guid(4f2a37da67ea84753bca90b00bf01ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-67.dae using Guid(4f2a37da67ea84753bca90b00bf01ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd372fbe89066eadb78a121f53a9a0979') in 0.153783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-632.dae
+  artifactKey: Guid(dcc3ad7b0979144d29e2f719d36118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-632.dae using Guid(dcc3ad7b0979144d29e2f719d36118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8609b1492d3ab945796f27ff7a3afa') in 1.115634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-57.dae
+  artifactKey: Guid(83b5f981eab214527a4752e7a5155b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-57.dae using Guid(83b5f981eab214527a4752e7a5155b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f08ceac3bf46a6de8bb9f0c42d68bb') in 0.167274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-654.dae
+  artifactKey: Guid(98623068ba35c4ad9b2024a93e24c8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-654.dae using Guid(98623068ba35c4ad9b2024a93e24c8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e308ea35e8befbabb0dba43039693e86') in 0.086278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-94.dae
+  artifactKey: Guid(10e4b91defb9549c1b19d6780a858099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-94.dae using Guid(10e4b91defb9549c1b19d6780a858099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14f8abd9a8828d0a05e7fd09299a32e') in 0.161915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-82.dae
+  artifactKey: Guid(e06c43bb6828544519713cbb7831f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-82.dae using Guid(e06c43bb6828544519713cbb7831f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41276a7bbf5b3776757504f07e27aa87') in 0.187185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-443.dae
+  artifactKey: Guid(2d47717f499e540288ef8ced11a244dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-443.dae using Guid(2d47717f499e540288ef8ced11a244dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb7e9387bd06ea2814bb400cdbf74f3') in 0.075687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-153.dae
+  artifactKey: Guid(968c518d055ba4680b56831b41a8d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-153.dae using Guid(968c518d055ba4680b56831b41a8d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f54dc2684fdc583a450326088bed011') in 0.260526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-128.dae
+  artifactKey: Guid(e86ab5151b16b4d6694a4106b1efa047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-128.dae using Guid(e86ab5151b16b4d6694a4106b1efa047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778e2ff6efa8c0cd1647f09846140ad8') in 0.079436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-538.dae
+  artifactKey: Guid(c58303de943414bd989eefc4ae8c0260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-538.dae using Guid(c58303de943414bd989eefc4ae8c0260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46cdbbabcf82621f927f26d5ebc5c88') in 0.114868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-93.dae
+  artifactKey: Guid(7d2c625f3d989499a9fbf021c4d1459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-93.dae using Guid(7d2c625f3d989499a9fbf021c4d1459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80d4af41c910750d3d58c34ca0299a6') in 0.095056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-140.dae
+  artifactKey: Guid(2f35b8f143f75402ba6e039bd728ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-140.dae using Guid(2f35b8f143f75402ba6e039bd728ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd23ea237289533a73f87fe2547c2e8') in 0.130174 seconds 
